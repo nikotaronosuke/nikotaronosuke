@@ -64,7 +64,7 @@ Web版とMobile版を開発し、投稿、写真、地図、認証、コミュ�
 - [excel-batch-tool](https://github.com/nikotaronosuke/excel-batch-tool) — Excel 本体なしで複数の Workbook を安全に一括解析・処理する Windows デスクトップアプリ(C# / WPF、初期開発段階)
 - [ai-problem-solving-memory](https://github.com/nikotaronosuke/ai-problem-solving-memory) — 複数の AI が同じ「問題」を証拠と状態ごと引き継ぐための MCP サーバー(TypeScript, MIT)
 - [crowdworks-ai-survey-analyzer](https://github.com/nikotaronosuke/crowdworks-ai-survey-analyzer) — CrowdWorks のアンケート CSV をブラウザ内だけで集計・可視化(TypeScript)
-- [recue](https://github.com/nikotaronosuke/recue) — 日本語音声認識の評価ハーネス(Windows / Python)
+- [ja-stt-router-eval](https://github.com/nikotaronosuke/ja-stt-router-eval) — 日本語STTとLLMルーティングを再現可能な条件で評価するハーネス(Windows / Python)
 
 ---
 
