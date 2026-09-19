@@ -65,6 +65,7 @@ Web版とMobile版を開発し、投稿、写真、地図、認証、コミュ�
 - [ai-problem-solving-memory](https://github.com/nikotaronosuke/ai-problem-solving-memory) — 複数の AI が同じ「問題」を証拠と状態ごと引き継ぐための MCP サーバー(TypeScript, MIT)
 - [crowdworks-ai-survey-analyzer](https://github.com/nikotaronosuke/crowdworks-ai-survey-analyzer) — CrowdWorks のアンケート CSV をブラウザ内だけで集計・可視化(TypeScript)
 - [ja-stt-router-eval](https://github.com/nikotaronosuke/ja-stt-router-eval) — 日本語STTとLLMルーティングを再現可能な条件で評価するハーネス(Windows / Python)
+- [jev-voice-decision](https://github.com/nikotaronosuke/jev-voice-decision) — 日本語音声をローカルSTTで文字起こしし、Jevのtyped decisionをPythonの決定的な処理分岐につなぐWindowsデモ(Python, MIT)
 
 ---
 
