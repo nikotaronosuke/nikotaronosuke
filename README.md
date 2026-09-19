@@ -10,22 +10,65 @@ AIにコードを書かせること自体ではなく、**何を作るかを決�
 
 ---
 
-## プロダクト
+## 稼働中のプロダクト
 
 ### Caplog / カプログ
 
 デートやお出かけを「見つける・作る・記録する」ためのモバイル中心のプロダクト。
 
-- [Public showcase](https://github.com/nikotaronosuke/caplog-showcase) — 実機スクリーンショット / 機能 / Architecture
+- [Public showcase](https://github.com/nikotaronosuke/caplog-showcase) — 実機スクリーンショット / 機能 / 技術設計
 - [Web](https://caplog.jp) — 本番稼働中
 
 `Expo` `React Native` `TypeScript` `Supabase` `Cloudflare Workers` `Next.js` `Google Maps / Places`
 
-現在はMobileアプリを開発の中心にしつつ、Web版も継続運用しています。
+現在はMobileアプリを開発の中心にしつつ、Web版も継続運用しています。Showcaseでは地図、公開URL、App APIなどの設計判断も公開しています。
 
 **状態:** Mobile 開発中 / Web 本番稼働中
 
 ---
+
+### ぽいもの本舗
+
+作ったもの・開発記録・技術記事・Web実験をまとめる、個人サイト / ポートフォリオ兼ブログ。
+
+- [poimono.jp](https://poimono.jp)
+
+`Astro` `TypeScript` `Cloudflare Workers Static Assets`
+
+プロダクトだけでなく、調査・試作・ブラウザ上の実験作品まで含めて、自分の制作物を継続的に公開するホームベースとして運用しています。
+
+**状態:** 本番稼働中 / 継続更新
+
+---
+
+### NINJA MAP / 忍者マップ
+
+**「今、日本のどこに忍者がいる？」** をテーマに、現在体験できる忍者施設・体験を地図から探せる日英対応の旅行データベース。
+
+- [ninjamap.jp](https://ninjamap.jp)
+- [English](https://ninjamap.jp/en/)
+
+`Astro` `TypeScript` `MapLibre GL JS` `Cloudflare Workers`
+
+公式情報を優先した掲載確認と、公開用座標の検証フローを分けて運用しています。50スポットの初期データを整備し、日英ページ・地図・SEOを含めて公開しています。
+
+**状態:** 本番稼働中 / データ継続更新
+
+---
+
+## 公開している道具
+
+- [tiny-code-pet](https://github.com/nikotaronosuke/tiny-code-pet) — Claude Code / Codex の作業状況を画面隅の忍者で確認する Windows ネイティブのデスクトップ Pet（C#, MIT）
+- [ai-problem-solving-memory](https://github.com/nikotaronosuke/ai-problem-solving-memory) — 複数の AI が同じ「問題」を証拠と状態ごと引き継ぐための MCP サーバー（TypeScript, MIT）
+- [crowdworks-ai-survey-analyzer](https://github.com/nikotaronosuke/crowdworks-ai-survey-analyzer) — CrowdWorks のアンケート CSV をブラウザ内だけで集計・可視化（TypeScript）
+- [jev-voice-decision](https://github.com/nikotaronosuke/jev-voice-decision) — 日本語音声をローカルSTTで文字起こしし、typed decisionをPythonの決定的な処理分岐につなぐWindowsデモ（Python, MIT）
+- [excel-batch-tool](https://github.com/nikotaronosuke/excel-batch-tool) — Excel 本体なしで複数の Workbook を安全に一括解析・処理する Windows デスクトップアプリ（C# / WPF、開発中）
+- [ja-stt-router-eval](https://github.com/nikotaronosuke/ja-stt-router-eval) — 日本語STTとLLMルーティングを再現可能な条件で評価するハーネス（Windows / Python）
+
+---
+
+<details>
+<summary><strong>過去のプロトタイプ / 停止中プロジェクト</strong></summary>
 
 ### Dog App / 犬アプリ
 
@@ -33,11 +76,7 @@ AIにコードを書かせること自体ではなく、**何を作るかを決�
 
 `Flutter` `Dart` `Flame` `Supabase`
 
-2Dの広場で犬たちが自律的に過ごす体験や、認証・プロフィールなどを試作しました。AIによるキャラクター生成も検証し、実機で品質を確認しながら仕様を見直しました。
-
-**状態:** プロトタイプ / 凍結
-
----
+2Dの広場で犬たちが自律的に過ごす体験や、認証・プロフィールなどを試作しました。実機で品質を確認しながら仕様を見直し、現在は凍結しています。
 
 ### Uradori / ウラドリ
 
@@ -45,30 +84,9 @@ AIにコードを書かせること自体ではなく、**何を作るかを決�
 
 `React Native` `Expo` `TypeScript` `Cloudflare Workers` `Google Places / Routes`
 
-現在地や移動条件、ジャンルなどから代替候補を探す体験を開発しました。技術実装だけでなく、外部APIコストやサービスとしての成立性まで検討した上で現在は停止しています。
+現在地や移動条件、ジャンルなどから代替候補を探す体験を開発しました。外部APIコストやサービスとしての成立性まで検討した上で停止しています。
 
-**状態:** 停止中
-
----
-
-### 非公開プロジェクト
-
-現在、新しいWeb / Mobileプロダクトを開発しています。
-
-詳細は非公開です。
-
----
-
-## 公開している道具(GitHub)
-
-小さく作って公開している道具です。
-
-- [tiny-code-pet](https://github.com/nikotaronosuke/tiny-code-pet) — Claude Code / Codex の作業状況を画面隅の忍者で確認する Windows ネイティブのデスクトップ Pet(C#, MIT)
-- [ai-problem-solving-memory](https://github.com/nikotaronosuke/ai-problem-solving-memory) — 複数の AI が同じ「問題」を証拠と状態ごと引き継ぐための MCP サーバー(TypeScript, MIT)
-- [crowdworks-ai-survey-analyzer](https://github.com/nikotaronosuke/crowdworks-ai-survey-analyzer) — CrowdWorks のアンケート CSV をブラウザ内だけで集計・可視化(TypeScript)
-- [jev-voice-decision](https://github.com/nikotaronosuke/jev-voice-decision) — 日本語音声をローカルSTTで文字起こしし、Jevのtyped decisionをPythonの決定的な処理分岐につなぐWindowsデモ(Python, MIT)
-- [excel-batch-tool](https://github.com/nikotaronosuke/excel-batch-tool) — Excel 本体なしで複数の Workbook を安全に一括解析・処理する Windows デスクトップアプリ(C# / WPF、初期開発段階)
-- [ja-stt-router-eval](https://github.com/nikotaronosuke/ja-stt-router-eval) — 日本語STTとLLMルーティングを再現可能な条件で評価するハーネス(Windows / Python)
+</details>
 
 ---
 
