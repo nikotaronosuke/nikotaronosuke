@@ -14,13 +14,16 @@ AIにコードを書かせること自体ではなく、**何を作るかを決�
 
 ### Caplog / カプログ
 
-デートやお出かけの体験を扱うWeb / Mobileサービス。
+デートやお出かけを「見つける・作る・記録する」ためのモバイル中心のプロダクト。
 
-`Next.js` `TypeScript` `Supabase` `Cloudflare Workers` `Expo` `React Native` `Google Maps / Places`
+- [Public showcase](https://github.com/nikotaronosuke/caplog-showcase) — 実機スクリーンショット / 機能 / Architecture
+- [Web](https://caplog.jp) — 本番稼働中
 
-Web版とMobile版を開発し、投稿、写真、地図、認証、コミュニケーション機能などを実装してきました。
+`Expo` `React Native` `TypeScript` `Supabase` `Cloudflare Workers` `Next.js` `Google Maps / Places`
 
-**状態:** Web は本番稼働中 / Mobile は開発中
+現在はMobileアプリを開発の中心にしつつ、Web版も継続運用しています。
+
+**状態:** Mobile 開発中 / Web 本番稼働中
 
 ---
 
@@ -61,11 +64,11 @@ Web版とMobile版を開発し、投稿、写真、地図、認証、コミュ�
 小さく作って公開している道具です。
 
 - [tiny-code-pet](https://github.com/nikotaronosuke/tiny-code-pet) — Claude Code / Codex の作業状況を画面隅の忍者で確認する Windows ネイティブのデスクトップ Pet(C#, MIT)
-- [excel-batch-tool](https://github.com/nikotaronosuke/excel-batch-tool) — Excel 本体なしで複数の Workbook を安全に一括解析・処理する Windows デスクトップアプリ(C# / WPF、初期開発段階)
 - [ai-problem-solving-memory](https://github.com/nikotaronosuke/ai-problem-solving-memory) — 複数の AI が同じ「問題」を証拠と状態ごと引き継ぐための MCP サーバー(TypeScript, MIT)
 - [crowdworks-ai-survey-analyzer](https://github.com/nikotaronosuke/crowdworks-ai-survey-analyzer) — CrowdWorks のアンケート CSV をブラウザ内だけで集計・可視化(TypeScript)
-- [ja-stt-router-eval](https://github.com/nikotaronosuke/ja-stt-router-eval) — 日本語STTとLLMルーティングを再現可能な条件で評価するハーネス(Windows / Python)
 - [jev-voice-decision](https://github.com/nikotaronosuke/jev-voice-decision) — 日本語音声をローカルSTTで文字起こしし、Jevのtyped decisionをPythonの決定的な処理分岐につなぐWindowsデモ(Python, MIT)
+- [excel-batch-tool](https://github.com/nikotaronosuke/excel-batch-tool) — Excel 本体なしで複数の Workbook を安全に一括解析・処理する Windows デスクトップアプリ(C# / WPF、初期開発段階)
+- [ja-stt-router-eval](https://github.com/nikotaronosuke/ja-stt-router-eval) — 日本語STTとLLMルーティングを再現可能な条件で評価するハーネス(Windows / Python)
 
 ---
 
