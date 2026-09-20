@@ -18,8 +18,6 @@ What I try to keep human-owned is:
 - real-device / real-use verification
 - the decision to change the specification when the original idea does not hold up
 
-The public repositories below include not only implementation details, but also **Owner Decision Logs** that record rejected approaches, measured trade-offs, and why the final design changed.
-
 ---
 
 ## Active products
